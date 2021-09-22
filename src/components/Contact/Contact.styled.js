@@ -5,6 +5,7 @@ import { colors } from "../../shared/colors";
 export const ContactContainer = styled.div`
   position: relative;
   min-height: calc(100vh - 91px);
+  padding-bottom: 3rem;
   img {
     max-width: 100%;
     height: 100%;

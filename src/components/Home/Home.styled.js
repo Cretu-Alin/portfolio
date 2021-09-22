@@ -13,8 +13,6 @@ export const HomeContainer = styled.div`
 `;
 
 export const HeroContainer = styled.div`
-  // border: 5px solid red;
-  height: 500px;
   max-width: 750px;
   width: 100%;
   // display: flex;
