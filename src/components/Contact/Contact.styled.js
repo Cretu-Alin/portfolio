@@ -46,7 +46,8 @@ export const ContactForm = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 70vh;
+    padding: 4rem 0;
+    // min-height: 70vh;
     .show-error::placeholder {
       color: #a3172e;
     }

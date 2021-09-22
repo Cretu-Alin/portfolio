@@ -50,14 +50,10 @@ export const Navigator = styled.div`
       width: 60%;
       background-color: ${colors.white};
       min-height: calc(100vh - 91px);
-      padding: 5rem 0;
       right: -100%;
       opacity: 1;
       transition: all 0.5s ease-in;
-      // transform: translateX(100%);
-      // transition: transform 0.5s ease;
       &.nav-active {
-        // transform: translateX(0%);
         transition: all 0.5s ease-in;
         right: 0;
         opacity: 1;
@@ -65,15 +61,16 @@ export const Navigator = styled.div`
     }
 
     ul {
-      height: 100%;
+      border: 1px solid red;
+      min-height: calc(100vh - 91px);
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       flex-direction: column;
     }
     .navigationLink {
       color: ${colors.primaryBlack};
-      margin: 4rem 0;
+      // margin: 2rem 0;
       font-size: 2rem;
 
       a {
