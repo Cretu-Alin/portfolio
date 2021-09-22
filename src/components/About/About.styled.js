@@ -6,6 +6,10 @@ export const AboutMain = styled.div`
   .about-image {
     max-width: 100%;
     flex: 1;
+    @media (min-width: 1920px) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   @media (max-width: 1235px) {

@@ -14,7 +14,7 @@ export const projectInfo = [
     description:
       "An application where you can search for a country around the world and find additional information like population, region, etc.",
     technologies: ["HTML", "CSS", "React", "styled-components"],
-    liveDemo: "https://countries-api-frontend-ac.netlify.app/",
+    liveDemo: "https://github.com/Cretu-Alin/countries-api",
     gitHub: "https://github.com/Cretu-Alin/countries-api",
   },
 
