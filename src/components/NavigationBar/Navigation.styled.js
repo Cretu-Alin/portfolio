@@ -61,7 +61,6 @@ export const Navigator = styled.div`
     }
 
     ul {
-      border: 1px solid red;
       min-height: calc(100vh - 91px);
       display: flex;
       justify-content: space-around;

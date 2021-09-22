@@ -48,6 +48,9 @@ export const ContactForm = styled.div`
     flex-direction: column;
     padding: 4rem 0;
     // min-height: 70vh;
+    @media (max-width: 700px) {
+      padding: 1rem 0;
+    }
     .show-error::placeholder {
       color: #a3172e;
     }
@@ -94,6 +97,7 @@ export const FormInput = styled.div`
   }
 
   @media (max-width: 700px) {
+    margin-bottom: 0.3rem;
     flex-direction: column;
     align-items: flex-start;
 
@@ -110,4 +114,8 @@ export const FormInput = styled.div`
 
 export const SubmitBtn = styled(Button)`
   font-size: 1.5rem;
+
+  @media (max-width: 700px) {
+    margin-top: 2rem;
+  }
 `;
